@@ -1,0 +1,25 @@
+.container {
+  height: 350px; /* Height of the container */
+  width: 100%; /* Width of the container */
+  overflow-y: auto;
+  margin: 0 auto;
+  background-color: var(--fill);
+}
+
+.selectCheck {
+  margin-right: 1rem;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 1.6rem; /* Should match itemHeight */
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.listItem:hover {
+  background-color: #121212;
+}
